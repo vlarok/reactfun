@@ -29,7 +29,7 @@ const cockpit = (props) => {
 
     return (
         <div>
-            <h1>Hi I'm vlad</h1>
+            <h1>{props.appTitle}</h1>
             <p className={classes.join(' ')}>test</p>
             {/* inefficient switchNameHandler() */}
             <button
